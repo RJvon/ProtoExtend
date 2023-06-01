@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_outer_classname = "RandomMessage";
+
+message MarketData{
+    optional double Ask1 = 1;
+    optional int32 AskLot1 = 2;
+    optional string AskChannel1 = 3;
+    optional double Bid1 = 4;
+    optional int32 BidLot1 = 5;
+    optional string BidChannel1 = 6;
+}
+message Message {
+    optional string TransType = 1;
+    optional MarketData MarketData = 2;
+}

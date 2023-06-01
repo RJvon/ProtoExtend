@@ -1,0 +1,7 @@
+targetpath:
+  - target/classes/
+compiler-proto-classes:
+  - com.fxq.entity.RandomMessage
+    MarketData
+
+

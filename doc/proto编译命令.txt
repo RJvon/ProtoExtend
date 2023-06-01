@@ -1,0 +1,2 @@
+D:\message.proto
+protoc --java_out=D:\ --proto_path=D:\ message.proto
