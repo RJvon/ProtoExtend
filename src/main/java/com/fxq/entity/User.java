@@ -1,7 +1,5 @@
 package com.fxq.entity;
 
-import com.fxq.annotation.IsNullMethod;
-import com.fxq.annotation.MyData;
 import com.fxq.annotation.PutStringMethod;
 
 @PutStringMethod("")

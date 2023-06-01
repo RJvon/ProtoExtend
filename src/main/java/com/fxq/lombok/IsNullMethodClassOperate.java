@@ -1,9 +1,6 @@
 package com.fxq.lombok;
 
-import com.fxq.annotation.GetStringMethod;
 import com.fxq.annotation.IsNullMethod;
-import com.fxq.config.Constant;
-import com.fxq.utils.StringUtils;
 import com.fxq.utils.Tools;
 import javassist.*;
 import java.lang.reflect.Field;

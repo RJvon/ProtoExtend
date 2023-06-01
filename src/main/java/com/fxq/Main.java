@@ -18,11 +18,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Tools.initialize();
-
-//        ClassOperate classOperate = new ClassOperate();
-//        classOperate.doClassOperate();
-//        PutMethodClassOperate putMethodClassOperate = new PutMethodClassOperate();
-//        putMethodClassOperate.doClassOperate();
         PutStringMethodClassOperate putStringMethodClassOperate = new PutStringMethodClassOperate();
         putStringMethodClassOperate.doClassOperate();
         PutIntMethodClassOperate putIntMethodClassOperate = new PutIntMethodClassOperate();
